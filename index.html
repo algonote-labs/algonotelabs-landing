@@ -42,8 +42,25 @@
             font-weight: bold;
             display: inline-block;
             transition: background-color 0.3s;
+            margin-bottom: 20px; /* 하단 여백 추가 */
         }
         .btn:hover { background-color: #d43b3b; }
+        
+        /* 추가된 하단 링크 스타일 */
+        .footer-link {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #666;
+        }
+        .footer-link a {
+            color: #ff4b4b;
+            text-decoration: none;
+        }
+        .footer-link a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -64,8 +81,11 @@
         <a href="https://quant-web-service-4hax5slzhbwgz8sa9tuja5.streamlit.app/?embed=true" class="btn">
             네, 동의하고 입장합니다 (Yes)
         </a>
+
+        <div class="footer-link">
+            <p><strong>참고 사이트</strong></p>
+            <p>블로그 : <a href="https://blog.naver.com/lifelong_study" target="_blank">https://blog.naver.com/lifelong_study</a></p>
+        </div>
     </div>
 </body>
 </html>
-
-
